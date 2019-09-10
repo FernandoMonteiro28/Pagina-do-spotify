@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #000000;
+    width: 100%;
+}
+
+header .topo{
+    width: 1170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .logo{
+    width: 132px;
+    height: 40px;
+}
+
+.conteudo{
+    background-color: #19E68C;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.todo{
+    width: 1170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prop{
+    width: 780px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: arial;
+    padding-bottom: 40px;
+}
+
+.texto{
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.texto a{
+    color: white;
+}
+
+img{
+    width: 350px;
+    height: 205px;
+}
+
+.conteudo2{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titulo{
+    color: black;
+    font-family: arial;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.submenu{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtexto{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: arial;
+}
+
+.logos{
+    width: 450px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logos img{
+    width: 135px;
+    height: 40px;
+    margin: auto;
+}
+
+.conteudo3{
+    background-color: #222326;
+}
+
+.musica{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica img{
+    width: 525px;
+    height: 190px;
+}
+
+h3{
+    color: white;
+    font-family: arial;
+    font-size: 34px;
+}
+
+.musica ul{
+    color: white;
+    width: 1000px;
+    display: flex;
+    margin-top: 5px;
+    padding-top: 20px;
+    justify-content: space-between;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+.musica ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.musica ul li::before {
+    content: "\2022";
+    color: #1F7E42;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+ul a{
+    color: #1F7E42;
+}
+
